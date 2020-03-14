@@ -1,5 +1,9 @@
 FROM python:3.7-alpine
 
+RUN apk add --no-cache gcc
+
+RUN apk add libc-dev
+
 # Create app directory
 WORKDIR /app
 
