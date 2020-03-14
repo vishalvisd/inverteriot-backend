@@ -1,0 +1,25 @@
+Collecting pubnub
+  Using cached https://files.pythonhosted.org/packages/fe/1a/153f3ba0127bed7fb134068e1f31ce9d35bd6c3dfa575b0a74837d17b979/pubnub-4.5.0.tar.gz
+Collecting pycryptodomex>=3.3 (from pubnub)
+  Using cached https://files.pythonhosted.org/packages/06/1d/0f2a749de95b5ec766880d9c0fafc9157c6b912f3bf7019f1eb1e0d058ce/pycryptodomex-3.9.7-cp37-cp37m-win_amd64.whl
+Collecting requests>=2.4 (from pubnub)
+  Using cached https://files.pythonhosted.org/packages/1a/70/1935c770cb3be6e3a8b78ced23d7e0f3b187f5cbfab4749523ed65d7c9b1/requests-2.23.0-py2.py3-none-any.whl
+Collecting six>=1.10 (from pubnub)
+  Using cached https://files.pythonhosted.org/packages/65/eb/1f97cb97bfc2390a276969c6fae16075da282f5058082d4cb10c6c5c1dba/six-1.14.0-py2.py3-none-any.whl
+Collecting cbor2 (from pubnub)
+  Using cached https://files.pythonhosted.org/packages/3e/2c/188d040bd4cf99012d0e847a3d95bf1ef1f783859b09eb9f736950af84f0/cbor2-5.0.1.tar.gz
+Collecting certifi>=2017.4.17 (from requests>=2.4->pubnub)
+  Using cached https://files.pythonhosted.org/packages/b9/63/df50cac98ea0d5b006c55a399c3bf1db9da7b5a24de7890bc9cfd5dd9e99/certifi-2019.11.28-py2.py3-none-any.whl
+Collecting idna<3,>=2.5 (from requests>=2.4->pubnub)
+  Using cached https://files.pythonhosted.org/packages/89/e3/afebe61c546d18fb1709a61bee788254b40e736cff7271c7de5de2dc4128/idna-2.9-py2.py3-none-any.whl
+Collecting urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 (from requests>=2.4->pubnub)
+  Using cached https://files.pythonhosted.org/packages/e8/74/6e4f91745020f967d09332bb2b8b9b10090957334692eb88ea4afe91b77f/urllib3-1.25.8-py2.py3-none-any.whl
+Collecting chardet<4,>=3.0.2 (from requests>=2.4->pubnub)
+  Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+Installing collected packages: pycryptodomex, certifi, idna, urllib3, chardet, requests, six, cbor2, pubnub
+  Running setup.py install for cbor2: started
+    Running setup.py install for cbor2: still running...
+    Running setup.py install for cbor2: finished with status 'done'
+  Running setup.py install for pubnub: started
+    Running setup.py install for pubnub: finished with status 'done'
+Successfully installed cbor2-5.0.1 certifi-2019.11.28 chardet-3.0.4 idna-2.9 pubnub-4.5.0 pycryptodomex-3.9.7 requests-2.23.0 six-1.14.0 urllib3-1.25.8
