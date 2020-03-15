@@ -4,6 +4,8 @@ RUN apk add --no-cache gcc
 
 RUN apk add libc-dev
 
+RUN apk add --no-cache curl
+
 # Create app directory
 WORKDIR /app
 
