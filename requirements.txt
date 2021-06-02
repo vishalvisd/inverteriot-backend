@@ -12,5 +12,5 @@ pubnub==4.5.0
 pycryptodomex==3.9.7
 requests==2.23.0
 six==1.14.0
-urllib3==1.25.8
+urllib3==1.26.5
 Werkzeug==1.0.0
